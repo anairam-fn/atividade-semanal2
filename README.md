@@ -22,12 +22,15 @@
     * Undefined -> é um valor indefinido;
     
     * Object -> mapeamento entre chaves e valores;
-       * Array -> são objetos iniciados com colchetes [] e suas entradas são
+       * Array -> são objetos iniciados com colchetes [  ] e suas entradas são
         separadas por vírgula. Boa para representação de listas e conjuntos;
-                ```
-                ["peanut butter", "jelly", "bread"]
-                ```
+
+            ```
+            ["peanut butter", "jelly", "bread"]
+            ```
+
         * Funções -> são objetos que dividem o código em partes reutilizáveis;
+
             ```
             function functionName() {
                 console.log("Hello World");
@@ -37,11 +40,14 @@
 - Concatenação e Interpolação: para unir strings;
     * Concatenação -> pode-se construir strings a partir de outras. Para isso,
     utiliza-se o operador de concatenação +;
-            ```
-            console.log("Hello " + "World.") // Vai imprimir Hello World
-            ```
+
+        ```
+        console.log("Hello " + "World.") // Vai imprimir Hello World
+        ```
+
     * Interpolação -> permite colocar os dados diretamente em uma string sem
     utilizar o operador de concatenação.
+
         ```
         const name = "Mariana";
         const lastName = "Nunes";
@@ -56,9 +62,11 @@
     * Qualquer dado pode ser armazenado;
     * Armazena-se um valor em uma variável com o operador =;
     * palavra reservada (let, const, var) identificador (nome da variável) = valor;
-                    ```
-                    const idade = 33;
-                    ```
+            
+            ```
+            const idade = 33;
+            ```
+
     * Por ser case sensitive é importante utilizar nomes coerentes nas variáveis,
     não pode começar com número, não pode conter espaço e nem palavras reservadas;
 
@@ -106,6 +114,7 @@ Comparativos:
 * O operador de igualdade == não analisa o tipo de dado e o converte.
 * Já o operador de igualdade estrita === olha tanto para o valor quanto para o tipo do dado.
     Então:
+
     ```
     "3" ==  3  // true
     "3" === 3  // false

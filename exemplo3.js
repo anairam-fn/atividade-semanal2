@@ -6,4 +6,4 @@ const taxaGarçom = (10 / 100) * valorConta;
 
 const valorTotal = valorConta + taxaGarçom;
 
-console.log(`O valor total da conta é R$ ${valorTotal.toFixed(2)}`);
+console.log(`O valor da taxa do garçom é R$${taxaGarçom.toFixed(2)}. Assim, o valor total da conta será R$${valorTotal.toFixed(2)}`);

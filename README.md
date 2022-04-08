@@ -111,8 +111,8 @@ Comparativos:
 
 
 ###### OBSERVAÇÃO:
-* O operador de igualdade == não analisa o tipo de dado e o converte.
-* Já o operador de igualdade estrita === olha tanto para o valor quanto para o tipo do dado.
+* O operador de igualdade == transforma o dado comparado;
+* Já o operador de igualdade estrita === não transforma os dados;
     Então:
 
     ```
@@ -124,5 +124,5 @@ Lógicos:
 | Operador | Descrição |
 | --- | --- |
 | `&&` | E |
-| `||` | Ou |
+| ` || ` | Ou |
 | `!` | Negação |
